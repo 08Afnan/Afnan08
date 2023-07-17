@@ -1,4 +1,4 @@
-package algonquin.cst2335.ahmedsandroidlabs;
+package algonquin.cst2335.afnansAndroidLab;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +15,12 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import algonquin.cst2335.ahmedsandroidlabs.data.ChatRoomViewModel;
+import algonquin.cst2335.afnansAndroidLab.data.ChatRoomViewModel;
+import algonquin.cst2335.ahmedsandroidlabs.R;
 import algonquin.cst2335.ahmedsandroidlabs.databinding.ActivityChatRoomBinding;
 import algonquin.cst2335.ahmedsandroidlabs.databinding.ReceiveMessegeBinding;
 import algonquin.cst2335.ahmedsandroidlabs.databinding.SentMessegeBinding;
+
 
 public class ChatRoom extends AppCompatActivity {
 //
@@ -77,6 +79,7 @@ public class ChatRoom extends AppCompatActivity {
             public MyRowHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
                 // This inflates the row layout
                 if(viewType == 0){
+
                     SentMessegeBinding binding = SentMessegeBinding.inflate(getLayoutInflater(), parent,false);
                     return new MyRowHolder( binding.getRoot() );
                 }

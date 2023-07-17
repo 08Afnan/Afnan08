@@ -1,8 +1,10 @@
-package algonquin.cst2335.ahmedsandroidlabs;
+package algonquin.cst2335.afnansAndroidLab;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import algonquin.cst2335.ahmedsandroidlabs.R;
 
 public class MainActivity extends AppCompatActivity {
 

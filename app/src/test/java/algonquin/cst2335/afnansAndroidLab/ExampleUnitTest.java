@@ -1,4 +1,4 @@
-package algonquin.cst2335.ahmedsandroidlabs;
+package algonquin.cst2335.afnansAndroidLab;
 
 import org.junit.Test;
 
